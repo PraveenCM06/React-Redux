@@ -5,8 +5,6 @@ import { addTodo } from '../features/todo/todoSlice';
 function Addtodo() {
     const [input, setInput] = useState('');
     const dispatch = useDispatch();
-
-
     const addTodoHandler = (e) => {
         e.preventDefault();
         if (input.trim() !== '') { // Check if input is not empty or only spaces
