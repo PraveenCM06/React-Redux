@@ -16,7 +16,7 @@ function Addtodo() {
     return (
         <form onSubmit={addTodoHandler} className='space-x-3 mt-12 mb-8'>
             <label htmlFor="todoInput" className="sr-only">
-                Enter a todo
+                Enter a Todo
             </label>
             <input
                 type="text"
