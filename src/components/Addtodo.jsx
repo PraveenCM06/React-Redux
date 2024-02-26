@@ -13,10 +13,10 @@ function Addtodo() {
         }
     };
 
-    return (
+    return (<div>
+            <h2 className='text-center text-2xl mt-8'>This is Very simple and practice Example of</h2>
+            <h1 className='text-center text-3xl font-extrabold'>React Redux Toolkit</h1>
         <form onSubmit={addTodoHandler} className='space-x-3 mt-12 mb-8'>
-            <h2>This is Very simple and practice Example of</h2>
-            <h1>React Redux Toolkit</h1>
             <label htmlFor="todoInput" className="sr-only">
                 Enter a Todo
             </label>
@@ -38,6 +38,7 @@ function Addtodo() {
                 Add Todo
             </button>
         </form>
+        </div>
     );
 }
 

@@ -8,7 +8,7 @@ function Todos() {
   console.log(todos);
   return (
     <div className="text-center">
-        <h1>Todos</h1>
+        <h1 className="text-xl font-medium">Todos list</h1>
           <ul className="list-none px-2">
             {todos.map((todo) => (
               <li
