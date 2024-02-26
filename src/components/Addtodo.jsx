@@ -15,6 +15,8 @@ function Addtodo() {
 
     return (
         <form onSubmit={addTodoHandler} className='space-x-3 mt-12 mb-8'>
+            <h2>This is Very simple and practice Example of</h2>
+            <h1>React Redux Toolkit</h1>
             <label htmlFor="todoInput" className="sr-only">
                 Enter a Todo
             </label>
